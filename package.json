@@ -1,0 +1,19 @@
+{
+  "name": "rolldown-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rolldown index.js --platform=node --file=dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "jsonc-parser": "^3.3.1",
+    "nx": "^22.4.2",
+    "rolldown": "^1.0.0-rc.1"
+  }
+}
